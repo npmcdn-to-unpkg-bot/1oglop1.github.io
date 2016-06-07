@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Logo Nav - Start Bootstrap Template</title>
+  <title>Amsterdam By Bike</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
+      <div class="navbar-header page-scroll">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -48,13 +48,13 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li>
-            <a href="#">About</a>
+            <a class="page-scroll" href="#info">Info</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a class="page-scroll" href="#maps">Maps</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a class="page-scroll" href="#summary">Summary</a>
           </li>
         </ul>
       </div>
@@ -67,111 +67,118 @@
   <div class="container">
 
     <!-- First box -->
-    <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
-          <h2 class="intro-text text-center">Build a website
+    <section id="info">
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center">Build a website
                       <strong>worth visiting</strong>
                   </h2>
-          <hr>
-          <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-          <hr class="visible-xs">
-          <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
-          <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos
-            are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique
-            senectus et netus et malesuada fames ac turpis egestas.</p>
+            <hr>
+            <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
+            <hr class="visible-xs">
+            <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
+            <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your
+              photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique
+              senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Second Box -->
-    <div class="row">
-      <div class="box">
-        <div class="col-lg-12 text-center">
-          <div id="carousel-example-generic" class="carousel slide">
-            <!-- Indicators -->
-            <ol class="carousel-indicators hidden-xs">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
+    <section id="maps">
+      <div class="row maps_class">
+        <div class="box">
+          <div class="col-lg-12 text-center">
+            <div id="carousel-example-generic" class="carousel slide">
+              <!-- Indicators -->
+              <ol class="carousel-indicators hidden-xs">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <!--<img class="img-responsive img-full" src="img/slide-1.jpg" alt="">-->
-                <div class="featurette" id="contact">
-                  <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-                  <h2 class="featurette-heading">The Third Heading
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <!--<img class="img-responsive img-full" src="img/slide-1.jpg" alt="">-->
+                  <div class="featurette" id="m1">
+                    <img alt="img" class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+                    <h2 class="featurette-heading">The Third Heading
                                           <span class="text-muted">Will Seal the Deal.</span>
                                         </h2>
-                  <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                  </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="featurette" id="contact">
-                  <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-                  <h2 class="featurette-heading">The Third Heading
+                <div class="item">
+                  <div class="featurette" id="m2">
+                    <img alt="img" class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+                    <h2 class="featurette-heading">The Third Heading
                                           <span class="text-muted">Will Seal the Deal.</span>
                                         </h2>
-                  <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                  </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="featurette" id="contact">
-                  <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-                  <h2 class="featurette-heading">The Third Heading
+                <div class="item">
+                  <div class="featurette" id="m3">
+                    <img alt="img" class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500>
+                    <h2 class="featurette-heading">The Third Heading
                                           <span class="text-muted">Will Seal the Deal.</span>
                                         </h2>
-                  <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                  </div>
                 </div>
               </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="icon-prev"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="icon-next"></span>
+              </a>
             </div>
 
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-              <span class="icon-prev"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-              <span class="icon-next"></span>
-            </a>
           </div>
 
         </div>
-
+        <!-- Second Box -->
       </div>
-      <!-- Second Box -->
-    </div>
+    </section>
 
     <!-- Box 3 -->
-    <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
-          <h2 class="intro-text text-center">Beautiful boxes
+    <section id="summary">
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center">Beautiful boxes
                     <strong>to showcase your content</strong>
                 </h2>
-          <hr>
-          <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique
-            senectus et netus et malesuada fames ac turpis egestas.</p>
+            <hr>
+            <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique
+              senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
         </div>
+        <!-- /Box 3 -->
       </div>
-      <!-- /Box 3 -->
-    </div>
+    </section>
     <!-- /.container -->
   </div>
 
+
   <footer>
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <p>Copyright &copy; Your Website 2014</p>
-              </div>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>Copyright &copy; Your Website 2014</p>
+        </div>
       </div>
+    </div>
   </footer>
 
   <!-- jQuery -->
@@ -179,6 +186,7 @@
 
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/ABB.js"></script>
 
 </body>
 
