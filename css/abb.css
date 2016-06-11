@@ -38,9 +38,12 @@ h6 {
 
 
 
-footer {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+/*footer {*/
+    /*background: rgba(255,255,255,0);*/
+/*}*/
+
+.down{
+    background: rgba(255,255,255,0.8);
 }
 
 footer p {
