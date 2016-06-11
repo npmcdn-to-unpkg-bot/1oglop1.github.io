@@ -8,6 +8,14 @@ body {
     padding-top: 70px;
 }
 
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+}
 
 h1,
 h2,
@@ -93,7 +101,7 @@ section h2 {
 }
 
 
-/*media section*/
+/* ======================================== media section*/
 /*min 768*/
 @media(min-width:768px) {
     body {
