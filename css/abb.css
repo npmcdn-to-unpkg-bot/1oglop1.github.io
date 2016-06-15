@@ -8,14 +8,8 @@ body {
     padding-top: 70px;
 }
 
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
 
-.navbar .navbar-collapse {
-    text-align: right;
-}
+
 
 h1,
 h2,
@@ -29,6 +23,22 @@ h6 {
     letter-spacing: 1px;
 }
 
+/*=====================Navbar========================*/
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+}
+
+/*Color of Text in Navbar*/
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
 .navbar-fixed-top .nav {
     padding: 15px 0;
 }
@@ -36,15 +46,34 @@ h6 {
     padding: 0 15px;
 }
 
+/*.navbar-default{*/
+    /*background: rgba(166,166,166,0.6);*/
 
-
-/*footer {*/
-    /*background: rgba(255,255,255,0);*/
 /*}*/
 
-.down{
-    background: rgba(255,255,255,0.8);
+/*=======================/Navbar===========================*/
+
+
+footer {
+    /*background: rgba(217,217,217,0.8);*/
+    /*background: rgba(217,217,217,0.6);*/
+     background: rgba(166,166,166,0.6);
+    margin-top: 100px;
 }
+
+
+/*.foo{*/
+    /*position: inherit;*/
+/*}*/
+
+/*.pics{*/
+    /*margin-top: -250px;*/
+/*}*/
+
+
+/*.down{*/
+    /*background: rgba(255,255,255,0.8);*/
+/*}*/
 
 footer p {
     margin: 0;
@@ -83,6 +112,8 @@ hr {
     padding: 30px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+
+
 }
 
 .intro-text {
@@ -102,7 +133,6 @@ section h2 {
   margin: 0;
   font-size: 3em;
 }
-
 
 /* ======================================== media section*/
 /*min 768*/
